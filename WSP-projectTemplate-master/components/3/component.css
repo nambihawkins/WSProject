@@ -36,7 +36,6 @@ body {
     border: 1px solid #c4c4c4;
     border-radius: 6px;
     background-color: #fff;
- 
     text-align: center;
 }
 
@@ -49,6 +48,7 @@ body {
 input {
     border: 1px solid #c4c4c4;
     border-radius: 5px;
+    width: 75%;
     color: #000;
     padding: 17px 75px 17px 20px;
     text-align: left;
