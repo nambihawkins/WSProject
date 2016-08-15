@@ -2,3 +2,86 @@
 ============================================================
 ============================================================*/
 
+body{
+    font: 16px / 1.0 'Arial', sans-serif;
+    line-height: 23px;
+    color: #bbbaba;   
+}
+
+img {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    border: 0;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+
+.wrapper {
+    float:left;
+    width: 18%;
+    text-align: center;
+    margin: 1%;
+}
+
+.first {
+     margin-left: 10%;   
+}
+
+h2 {
+    font-size: 1.875em;
+    font-weight: 300;
+    line-height: 30px;
+    margin-top: -100px;
+    padding: 121px 20px 40px 20px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;   
+    font-weight: lighter;
+    width: 100%;
+}
+
+.one {
+    background-color: #a1a195;   
+}
+.two {
+    background-color: #737877;   
+}
+.three {
+    background-color: #464646;   
+}
+.four {
+    background-color: #98c051;   
+}
+
+p {
+    background-color: #f0f1f1 ; 
+    font-size: 0.875e,; 
+    text-align: left;
+    margin: auto;
+    margin-bottom: 0;
+    padding: 15% 10%;
+    width: 100%;
+}
+
+.button {
+    color: #fff;
+    padding: 15px 25px;
+    text-decoration: none;
+    border: none;
+    text-transform: uppercase;
+    font-size: 0.9375em;
+
+    margin-left: -49%;
+    width: auto;
+}
+
+.button:hover, .button:active {
+    background-color: #f0f1f1;
+    color: #bbbaba;
+    -webkit-transition: ease .5s;
+    -webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+    outline: 0;
+}
