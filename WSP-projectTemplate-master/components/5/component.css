@@ -1,4 +1,27 @@
 /* Component Stylesheet 
 ============================================================
 ============================================================*/
+body {
+    font: 16px / 1.0 Optima, sans-serif;
+    color: #c1c1c1;
+}
 
+.wrapper {
+    text-align: center;
+    margin: auto;
+}
+
+h1 {
+    font-size: 2em;
+    color: #000;
+    padding: 10px 0px;
+}
+
+p {
+ padding: 10px 0px;   
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+}

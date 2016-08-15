@@ -1,4 +1,73 @@
 /* Component Stylesheet 
 ============================================================
 ============================================================*/
+body {
+    font: 16px / 1.0 Roboto, sans-serif;
+    color: #fff;
+    background: #ffffff url("Background.png") no-repeat top;
+    background-size: 100% 125%;
+}
 
+::-webkit-input-placeholder {
+    color: #000;   
+}
+.floatLeft{
+    margin-left: 7%;
+    margin-top: 17%;
+    float:left;
+    width: 45%;
+    text-align: left;
+}
+.floatLeft h1 {
+    font-size: 50px;  
+    padding-bottom: 15px;
+}
+.floatLeft p {
+    line-height: 32px;
+    font-size: 20px;
+}
+
+.floatRight {
+    float:right;
+    overflow: auto;
+    margin-right: 7%;
+    margin-top: 5%;
+    width: 21%;
+    border: 1px solid #c4c4c4;
+    border-radius: 6px;
+    background-color: #fff;
+    padding-left: 20px;
+}
+
+.floatRight p{
+    font-size: 32px;
+    color: #000;  
+    margin: 20px 0 20px 0;
+}
+
+input {
+    border: 1px solid #c4c4c4;
+    border-radius: 5px;
+    color: #000;
+    padding: 17px 75px 17px 20px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.button {
+    background-color: #47a2f8;
+    border: 1px solid #47a2f8;
+    border-radius: 5px;
+    color: #fff;
+    padding: 17px 75px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+.button:hover, .button:active {
+    background-color: #2c65d3;
+    border-color: #2c65d3; 
+    outline: 0;
+}
