@@ -36,7 +36,8 @@ body {
     border: 1px solid #c4c4c4;
     border-radius: 6px;
     background-color: #fff;
-    padding-left: 45px;
+ 
+    text-align: center;
 }
 
 .floatRight p{
