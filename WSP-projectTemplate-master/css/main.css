@@ -3,20 +3,20 @@
 ============================================================*/
 body {
 	margin: auto;
-    font: 16px / 1.0 Arial, sans-serif;
+    font: 16px / 1.0 'Oxygen', sans-serif;
     color: #27344E;
-    background: #1A2334;
 }
 
 .container {
-	max-width: 950px;
 	background-color: #FFF;
 	margin: auto;
-	padding: 10px 20px;
+}
+.container h1, h2, h3, p{
+    padding: 1.052632% 2.105263%;  
 }
 body, .container {
-	margin-top: 20px;
-	margin-bottom: 50px;
+	margin-top: 2.105263%;
+	margin-bottom: 5.263158%;
 }
 
 img {
@@ -29,32 +29,57 @@ img {
 img:hover {
 	opacity: 0.5;
 }
-h1 {
-	font-size: 26px;
+.h1 {
+	font-size: 1.80em;
+    
 }
 h2 {
-	font-size: 22px;
+	font-size: 1.625em;
 	margin: 20px 0;
+    font-weight: bold;
 }
 h3 {
-	font-size: 18px;
+	font-size: 1.125em;
 	text-decoration: underline;
 	font-weight: bold;
 }
-header > h1 {
-	margin-left: 250px;
-	font-size: 30px;
-	color: #fff;
-}
+
 
 /* HEADER ============================== */
-
+header > h1 {
+	margin-left: 10.24%;
+	font-size: 1.875em;
+}
+header li {
+    display: inline-block;
+    padding-left: 2%;
+    padding-bottom: 2%;
+    margin: auto;
+}
+header a:link {
+    color: #27344E;   
+}
+header a:hover {
+    color: #61A3F5;   
+}
 /* ABOUT ============================== */
+.about {
+    background: #ffffff url("../images/About.png") no-repeat scroll top;
+    background-size: cover;
+    margin: auto;
+    height: 500px;
+    
+}
 .about p {
-	width: 500px;
-	margin:auto;
+    font-size: 1.25em;
+    color: #fff;
+	width: 40%;
 	font-style: italic;
 	margin-bottom: 10px;
+    text-align: center;
+    position: relative;
+    left: 60%;
+    top:35%;
     
 }
 /* COMPONENTS ============================== */
@@ -66,5 +91,5 @@ header > h1 {
 }
 div .component-2 {
 	padding: 20px;
-	border: solid 5px #4D669A; 
+	border: solid 20px #5086F2; 
 }

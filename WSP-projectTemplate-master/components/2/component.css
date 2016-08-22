@@ -20,8 +20,11 @@ img {
 .wrapper {
     float:left;
     width: 18%;
-    text-align: center;
     margin: 1%;
+}
+.wrapper img {
+    display: block;
+    margin: auto;
 }
 
 .first {
@@ -71,9 +74,8 @@ p {
     border: none;
     text-transform: uppercase;
     font-size: 0.9375em;
-
-    margin-left: -49%;
     width: auto;
+    
 }
 
 .button:hover, .button:active {
